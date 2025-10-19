@@ -9,7 +9,7 @@ public class Main {
         
         int totalSubscribers = 200000000;
         System.out.println("Netflix has " + totalSubscribers + " subscribers globally.");
-        
+    
         long streamingMinutes = 100000000000L;
         System.out.println("Total streaming minutes on Netflix last year: " + streamingMinutes);
     }
