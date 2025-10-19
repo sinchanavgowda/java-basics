@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class GradeCalculator {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your score: ");
+        int score = sc.nextInt();
+
+        String grade = (score >= 35) ? "Pass" : "Fail";
+        System.out.println("Your result: " + grade);
+    }
+}
